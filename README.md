@@ -24,6 +24,8 @@ The app should implement the following functionality:
     * must fail if amount supplied is greater than balance
 8. Transaction -> **Deposit** amount to account (credit)
     * account balance should be increased by the supplied amount
+    * if the weather is sunny, then the bank will match any deposits made
+    * if the weather is rainy, then the bank will deduct 10% of any deposits made
 9. Transaction -> **Transfer** amount between accounts (debit + credit)
     * debit amount from source account
     * all normal debit rules apply
